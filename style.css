@@ -20,18 +20,24 @@ body {
     align-items: center;
     text-align: center;
     gap: 20px;
+    margin-bottom: 15px;
+}
+
+.heading {
+    margin-bottom: 40px;
+    margin-left: 110px;
 }
 
 .bold {
     font-weight: bold;
     color: #ffffff;
-    font-size: 35px;
+    font-size: 45px;
 }
 
 .not-bold {
     font-weight: bold;
     color: #ecb9b8;
-    font-size: 35px;
+    font-size: 45px;
 }
 
 .heading p {
@@ -54,7 +60,7 @@ body {
     width: 35%;
     height: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-size: cover;
     background-position: center;
 }
@@ -65,7 +71,7 @@ body {
     width: 35%;
     height: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-size: cover;
     background-position: center;
 }
@@ -76,19 +82,19 @@ body {
     width: 35%;
     height: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-size: cover;
     background-position: center;
 }
 
 .container p {
     color: #c88a88;
-    font-size: 14px;
+    font-size: 18px;
     margin-bottom: 10px;
 }
 
 .container span {
     color: #ffffff;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
 }
