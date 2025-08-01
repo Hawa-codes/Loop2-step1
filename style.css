@@ -90,6 +90,7 @@ body {
 .container p {
     color: #c88a88;
     font-size: 18px;
+    margin-top: 20px;
     margin-bottom: 10px;
 }
 
@@ -98,3 +99,35 @@ body {
     font-size: 24px;
     font-weight: bold;
 }
+
+.start-btn {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 50px;
+    padding: 20px 0; 
+}
+
+.start-btn button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 200px;
+    padding: 12px 24px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+.start-btn button:active {
+    animation: shake 0.3s;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
