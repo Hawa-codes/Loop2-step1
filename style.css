@@ -5,6 +5,7 @@
 }
 
 body {
+    font-family: 'Roboto', sans-serif;
     background-color: #de8a89;
     height: 100vh;
     overflow: hidden;
@@ -25,23 +26,23 @@ body {
 
 .heading {
     margin-bottom: 40px;
-    margin-left: 110px;
+    margin-left: 160px;
 }
 
 .bold {
     font-weight: bold;
     color: #ffffff;
-    font-size: 45px;
+    font-size: 50px;
 }
 
 .not-bold {
     font-weight: bold;
     color: #ecb9b8;
-    font-size: 45px;
+    font-size: 50px;
 }
 
 .heading p {
-    font-size: 16px;
+    font-size: 13px;
     color: #ffffff;
 }
 
@@ -137,8 +138,9 @@ body {
 .start-btn {
     display: flex;
     align-items: flex-start;
-    margin-left: 50px;
+    margin-left: -400px;
     padding: 20px 0; 
+    margin-top: -40px;
 }
 
 .start-btn button {
@@ -146,9 +148,9 @@ body {
     color: white;
     border: none;
     border-radius: 3px;
-    width: 200px;
+    width: 170px;
     padding: 12px 24px;
-    font-size: 15px;
+    font-size: 12px;
     cursor: pointer;
     transition: transform 0.1s;
 }
