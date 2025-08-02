@@ -100,6 +100,40 @@ body {
     font-weight: bold;
 }
 
+.play-button {
+    width: 120px;
+    height: 80px;
+    background-color: #ecb9b8;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+}
+
+.play-button:hover {
+    transform: scale(1.05);
+    background-color: #ffffff;
+}
+
+.play-icon {
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    margin-left: 5px;
+}
+
+.one {
+    border-right: 8px solid #855352;
+}
+
+.two {
+    border-left: 8px solid #855352;
+}
+
 .start-btn {
     display: flex;
     align-items: flex-start;
